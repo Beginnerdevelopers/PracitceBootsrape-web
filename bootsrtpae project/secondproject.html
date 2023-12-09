@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+
+    <style>
+      * {
+        font-family: 'Open Sans', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .carousel-inner img {
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+      }
+    
+.img_abut{
+    min-width: 100%;
+    max-height: 200px;
+}
+.img1_abut{
+    min-width: 60%;
+   height: 300px;
+}
+      /* // X-Small devices (portrait phones, less than 576px)
+      // No media query for `xs` since this is the default in Bootstrap */
+
+      /* // Small devices (landscape phones, 576px and up) */
+      @media (min-width: 576px) {
+      }
+      /* 
+      // Medium devices (tablets, 768px and up) */
+      @media (min-width: 768px) {
+      }
+
+      /* // Large devices (desktops, 992px and up) */
+      @media (min-width: 992px) {
+      }
+
+      /* // X-Large devices (large desktops, 1200px and up) */
+      @media (min-width: 1200px) {
+      }
+
+      /* // XX-Large devices (larger desktops, 1400px and up) */
+      @media (min-width: 1400px) {
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand text-danger" href="#">CodingHell💀💀👺</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Carsol Start here -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img1.jpg" class="d-block w-100" alt="img1.jpg" />
+            <div class="carousel-caption d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carol end here -->
+
+      <!-- About Us  -->
+
+      <section>
+        <div class="text-center my-5">
+          <h1 class="display-4">About Us</h1>
+          <hr class="w-25 mx-auto" />
+        </div>
+
+        <div class="container"> <div class="row my-5">
+           
+            <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+                <figure>
+                    <img  class="img_abut" src="1.jpg " class="img-fluid " alt="Some Image here">
+                </figure>
+            </div>
+
+  
+            <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-start
+            flex-column">
+               <h1> My coding Journy</h1>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda eligendi possimus itaque laudantium. Voluptatibus ad, molestias recusandae eligendi vitae nemo.</p>
+               <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Want to Know Who I aM ">
+                Click Me
+              </button>
+            </div>
+            
+        </div>
+    
+    
+    </div>
+         
+        </div>
+      </section>
+      <!-- About Us End  -->
+
+<!-- Card Section  -->
+
+<div class="bg-light py-5">
+    <div class="text-center my-5">
+      <h1 class="display-4">ServicesS</h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+
+
+    <div class="container ">
+        <div class="row my-5">
+        
+                <div class="col-lg-4 col-md-4 col-12">
+
+                    <div class="card" >
+                      <img class="card-img-top" src="5.jpg" alt="Card image">
+                      <div class="card-body">
+                        <h4 class="card-title font-weight-bold">First Card IN Bootstrap</h4>
+                        <p class="card-text">x! Tempora necessitatibus dolor inventore recusandae ab iste pariatur obcaecati maiores dolorem?</p>
+                        <a href="#" class="btn btn-primary">Hover Me</a>
+                      </div>
+                    </div>
+            
+            
+                  </div>
+           
+                  <div class="col-lg-4 col-md-4 col-12">
+
+                    <div class="card" >
+                      <img class="card-img-top" src="6.jpg" alt="Card image">
+                      <div class="card-body">
+                        <h4 class="card-title font-weight-bold">First Card IN Bootstrap</h4>
+                        <p class="card-text">x! Tempora necessitatibus dolor inventore recusandae ab iste pariatur obcaecati maiores dolorem?</p>
+                        <a href="#" class="btn btn-primary">Hover Me</a>
+                      </div>
+                    </div>
+            
+            
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-12">
+  
+                      <div class="card" >
+                        <img class="card-img-top" src="4.jpg" alt="Card image">
+                        <div class="card-body">
+                          <h4 class="card-title font-weight-bold">First Card IN Bootstrap</h4>
+                          <p class="card-text">x! Tempora necessitatibus dolor inventore recusandae ab iste pariatur obcaecati maiores dolorem?</p>
+                          <a href="#" class="btn btn-primary">Hover Me</a>
+                        </div>
+                      </div>
+              
+              
+                    </div>
+            
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- card Section End  -->
+
+<!-- Gallary start 
+
+-->
+
+<section>
+<div class="">
+    <div class="text-center my-5">
+      <h1 class="display-4">Services</h1>
+      <hr class="w-25 mx-auto" />
+    </div>
+<div class="container
+">
+<div class="row">
+    <div class="col-md-4 col-lg-4 col-10 col-xxl-4 mx-auto">
+    <figure>
+        <img src="1.jpg" alt="fist Imag" class="img-fluid">     
+    </figure>
+</div>
+<div class="col-md-4 col-lg-4 col-10 col-xxl-4 mx-auto">
+    <figure>
+        <img src="1.jpg" alt="fist Imag" class="img-fluid">     
+    </figure>
+</div>
+<div class="col-md-4 col-lg-4 col-10 col-xxl-4 mx-auto">
+    <figure>
+        <img src="1.jpg" alt="fist Imag" class="img-fluid">     
+    </figure>
+</div> <div class="col-md-4 col-lg-4 col-10 col-xxl-4 mx-auto">
+    <figure>
+        <img src="1.jpg" alt="fist Imag" class="img-fluid">     
+    </figure>
+</div> <div class="col-md-4 col-lg-4 col-10 col-xxl-4 mx-auto">
+    <figure>
+        <img src="1.jpg" alt="fist Imag" class="img-fluid">     
+    </figure>
+</div> <div class="col-md-4 col-lg-4 col-10 col-xxl-4 mx-auto">
+    <figure>
+        <img src="1.jpg" alt="fist Imag" class="img-fluid">     
+    </figure>
+</div> <div class="col-md-4 col-lg-4 col-10 col-xxl-4 mx-auto">
+    <figure>
+        <img src="1.jpg" alt="fist Imag" class="img-fluid">     
+    </figure>
+</div> <div class="col-md-4 col-lg-4 col-10 col-xxl-4 mx-auto">
+    <figure>
+        <img src="1.jpg" alt="fist Imag" class="img-fluid">     
+    </figure>
+</div> <div class="col-md-4 col-lg-4 col-10 col-xxl-4 mx-auto">
+    <figure>
+        <img src="1.jpg" alt="fist Imag" class="img-fluid">     
+    </figure>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+
+
+
+<!-- Gallary end  -->
+
+
+
+<section>
+    <div class="container-fluid text-center my-5 py-5 bg-info">
+<h1 class="text-white">
+    Chack My Coding Journy
+</h1>
+<p class="my-3 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, rerum.</p>
+<button type="button" class="btn btn-primary text-white" data-bs-toggle="tooltip" data-bs-placement="left" title="Want to Know Who I aM "<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+    <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
+  </svg>>
+    Click Me
+  </button>
+    </div>
+</section>
+
+
+
+<!-- Contact Us Form strat -->
+
+
+<section>
+    <div class="">
+        <div class="text-center my-5">
+          <h1 class="display-4">Contact Us</h1>
+          <hr class="w-25 mx-auto" />
+        </div>
+<!-- Contact Us Form end -->
+
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
